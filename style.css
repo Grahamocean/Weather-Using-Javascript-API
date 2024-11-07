@@ -84,3 +84,29 @@ p{
   font: 700;
   color: hsla(0, 0%, 0%, 0.75) ;
 }
+
+@media (max-width: 450px) {
+
+
+  body{
+    padding: 2rem;
+  }
+  .weatherForm {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card{
+    max-width: 100%;
+  }
+  
+}
+
+@media (max-width: 361px){
+  .card{
+    margin: 3rem;
+  }
+}
