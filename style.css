@@ -40,7 +40,7 @@ button[type="submit"]:hover {
 
 .card {
   background: -webkit-linear-gradient(270deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
-  /* border: 1px solid black; */
+  border-radius: 10px;
   padding: 3.125rem;
   box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
   min-width: 300px;
@@ -82,5 +82,5 @@ p{
 .errorDisplay{
   font-size: 2rem;
   font: 700;
-  color: hsla(0, 0%, 0%, 0.75);
+  color: hsla(0, 0%, 0%, 0.75) ;
 }
